@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It Takes a Whole Village"
+title: "It Takes a Whole Village to Educate a Child"
 author: Catarina Martins
 date: 2026-07-12 12:00:00 +0000
 categories: reflections
