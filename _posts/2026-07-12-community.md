@@ -5,7 +5,7 @@ author: Catarina Martins
 date: 2026-07-12 12:00:00 +0000
 categories: reflections
 tags: [community, psychology]
-image: assets/images/2026-07-12-community/cover.png
+image: assets/images/2026-07-12-community/cover.jpeg
 featured: false
 ---
 
