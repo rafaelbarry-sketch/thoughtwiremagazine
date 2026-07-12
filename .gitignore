@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 vendor/
 Gemfile.lock
+jekyll_out.log
+jekyll_err.log

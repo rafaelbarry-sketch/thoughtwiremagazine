@@ -1,0 +1,40 @@
+<!-- begin post -->
+<div class="col-md-6 mb-30px">
+    <div class="listfeaturedtag h-100">
+        <div class="row h-100">
+            <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+                <div class="h-100">
+                    <div class="wrapthumbnail">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-7">
+                <div class="h-100 card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            {% assign firstCategory = post.categories | sort | first %}
+                            {% if firstCategory %}
+                            <a class="category-pill" href="{{site.baseurl}}/categories#{{ firstCategory | replace: " ","-" }}">{{ firstCategory }}</a>
+                            {% endif %}
+                            <h2 class="card-title">
+                                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                            </h2>
+                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
+                        </div>
+                        <div class="card-footer b-0 bg-white mt-auto">
+                            <div class="wrapfooter">
+                                <span class="post-date">{{ post.date | date_to_string }}</span>
+                                <span class="post-read-more"><a href="{{ site.baseurl }}/{{ post.url }}" title="Read Story">Read more &rarr;</a></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
