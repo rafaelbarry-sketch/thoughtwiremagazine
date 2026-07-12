@@ -24,7 +24,7 @@ post_class: post-template
                 <h1 class="posttitle">{{ page.title }}</h1>
 
                 <p class="post-meta-line">
-                    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                    {% if page.author %}By {{ page.author }} &nbsp;|&nbsp; {% endif %}<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 </p>
 
             </div>
