@@ -11,6 +11,7 @@ logo: 'assets/images/logo.png'
 
 twitter: "https://x.com/thoughtwiremagazine"
 instagram: "https://instagram.com/thoughtwiremagazine"
+email: "thoughtwiremagazine@gmail.com"
 
 plugins:
   - jekyll-remote-theme

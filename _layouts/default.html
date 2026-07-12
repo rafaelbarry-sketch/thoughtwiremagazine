@@ -136,6 +136,7 @@ ga('send', 'pageview');
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                {% if site.email %}&nbsp;|&nbsp; <a href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">
                 {% if site.instagram %}<a href="{{ site.instagram }}" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>{% endif %}

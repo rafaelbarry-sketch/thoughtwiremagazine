@@ -42,3 +42,21 @@
     font-family: Georgia, 'Merriweather', serif;
     font-weight: 700;
 }
+
+.submissions-box {
+    border: 2px solid #2b2d42;
+    border-radius: 4px;
+    padding: 24px 28px;
+    margin-top: 30px;
+}
+.submissions-box h3 {
+    font-family: Georgia, 'Merriweather', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.submissions-box p {
+    margin-bottom: 0;
+}
+.submissions-box a {
+    font-weight: 700;
+}
