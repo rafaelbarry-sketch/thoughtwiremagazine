@@ -1,27 +1,40 @@
 title: Thoughtwire Magazine
+name: Thoughtwire Magazine
 description: >-
   Essays, notes, and dispatches on markets, tech, and everything in between.
 baseurl: ""
 url: "https://thoughtwiremagazine.me"
 
-theme: minima
-minima:
-  skin: classic
-  social_links:
-    - { platform: github, user_url: "https://github.com/rafaelbarry-sketch" }
+remote_theme: wowthemesnet/mediumish-theme-jekyll
+
+logo: 'assets/images/logo.png'
+
+twitter: "https://x.com/thoughtwiremagazine"
+instagram: "https://instagram.com/thoughtwiremagazine"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
-show_excerpts: true
-
-header_pages:
-  - about.md
+paginate: 6
+paginate_path: /page:num/
 
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
 
 exclude:
   - Gemfile
