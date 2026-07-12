@@ -1,0 +1,29 @@
+title: Thoughtwire Magazine
+description: >-
+  Essays, notes, and dispatches on markets, tech, and everything in between.
+baseurl: ""
+url: "https://thoughtwiremagazine.me"
+
+theme: minima
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/rafaelbarry-sketch" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
