@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Thoughtwire Magazine is a newsletter and blog covering markets, technology, and ideas worth chewing on.
+Thoughtwire Magazine is a digital supplement for culture, style and psyche.
 
 Subscribe to get new posts by email — link coming soon.
 
