@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Thoughtwire Magazine is a digital supplement for culture, style and psyche.
+Thought Wire Magazine is a digital supplement for culture, style and psyche.
 
 Subscribe to get new posts by email. Link coming soon.
 
